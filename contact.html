@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Contact Us - AniWave</title>
+<meta name="description" content="Get in touch with AniWave.space. Send feedback, requests, and inquiries.">
+<link rel="canonical" href="https://www.aniwave.space/contact.html">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5"/>
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-96x96.png" sizes="96x96"/>
+<link rel="shortcut icon" href="/assets/images/favicons/favicon.ico"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/assets/css/styles.min.css"/>
+<style>
+  .legal-page { max-width: 860px; margin: 100px auto 60px; padding: 0 20px; }
+  .legal-page h1 { font-size: 2rem; margin-bottom: 8px; }
+  .legal-page .updated { color: #888; font-size: 0.9rem; margin-bottom: 32px; }
+  .legal-page h2 { font-size: 1.2rem; margin: 28px 0 10px; }
+  .legal-page p, .legal-page li { color: #b0b0b0; line-height: 1.8; margin-bottom: 10px; }
+  .legal-nav { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+  .legal-nav a { color: #e5a00d; font-size: 0.875rem; text-decoration: none; }
+  .legal-nav a:hover { text-decoration: underline; }
+  .back-home { display: inline-flex; align-items: center; gap: 8px; color: #e5a00d; text-decoration: none; margin-bottom: 24px; font-size: 0.9rem; }
+  .back-home:hover { text-decoration: underline; }
+  
+  .contact-form-container { background: #12131a; padding: 30px; border-radius: 12px; border: 1px solid #20222e; margin-top: 30px; }
+  .contact-form-container label { display: block; color: #fff; font-size: 0.95rem; margin-bottom: 8px; }
+  .contact-form-container input, .contact-form-container textarea { width: 100%; padding: 12px 16px; background: #181922; border: 1px solid #2a2d3d; border-radius: 8px; color: #fff; font-family: inherit; margin-bottom: 20px; transition: border-color 0.2s; }
+  .contact-form-container input:focus, .contact-form-container textarea:focus { outline: none; border-color: #e5a00d; }
+  .btn-submit { display: inline-block; background: #e5a00d; color: #000; font-weight: 700; padding: 12px 28px; border: none; border-radius: 8px; cursor: pointer; transition: opacity 0.2s; }
+  .btn-submit:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+<div class="legal-page">
+  <a href="/" class="back-home"><i class="fa-solid fa-arrow-left"></i> Back to AniWave</a>
+  <h1>Contact Us</h1>
+  <p class="updated">Get in touch with the AniWave team</p>
+
+  <div class="legal-nav">
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+    <a href="/dmca.html">DMCA</a>
+    <a href="/disclaimer.html">Disclaimer</a>
+    <a href="/cookie-policy.html">Cookie Policy</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+
+  <p>For questions, general feedback, business inquiries, or DMCA requests, please fill out the form below or contact us at: <strong>contact@aniwave.space</strong>.</p>
+
+  <div class="contact-form-container">
+    <form action="mailto:contact@aniwave.space" method="post" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+      <label for="email">Your Email Address</label>
+      <input type="email" id="email" name="email" required placeholder="name@example.com">
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required placeholder="DMCA, Bug Report, General Question">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required placeholder="Write your message here..."></textarea>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
